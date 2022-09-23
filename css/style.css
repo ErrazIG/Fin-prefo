@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+	background-color:#bababa;
+    padding: 0;
+    margin: 0;
+    cursor: crosshair;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+}
+
+p{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+header li{
+    float:right;
+    font-size: 1.2em;
+
+}
+header li a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 18px 16px;
+}
+header li a:hover{
+    color: #d70e29;
+    cursor: crosshair;
+}
+#logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    float: left;
+}
+#logo:hover{
+    color: #d70e29;
+    cursor: crosshair;
+
+}
+
+#page1{
+    padding-top: 60px;
+	background: url("../medias/wallpaperrrrr.png") no-repeat fixed 50% 50%;
+	background-size: cover;
+	height: 900px;
+
+}
+h1{
+    text-transform: uppercase;
+	color: #363636;
+    text-align: center;
+    margin-top: 350px;
+    font-size: 6em;
+
+}
+#premiertrait{
+	height:1px;
+	width: 25%;
+	margin: -3px auto;
+	background-color: black;
+}
+#secondtrait{
+	height:1px;
+	width: 25%;
+	margin: -3px auto;
+	background-color: black;
+}
+#troisiemetrait{
+	height:1px;
+	width: 25%;
+	margin: -3px auto;
+	background-color: black;
+}
+#presentation{
+	padding: 10px 0px 100px 0;
+}
+#aboutme{
+    display: block;
+    width: 1920px;
+    height: 1080px;
+	background-size: 100%;
+    padding-top: 5%;
+}
+#interview{
+    display: block;
+    width: 1920px;
+    height: 1080px;
+	background-size: 100%;
+    padding-top: 5%;
+}
+#expo{
+    display: block;
+    width: 1920px;
+    height: 1080px;
+	background-size: 100%;
+    padding-top: 5%;
+}
+
+#vid {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -9;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+#cloche:hover{
+	transform: rotate(20deg);
+}
+#crystaldigit{
+	display: inline;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+}
+#crystal{
+	color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#digit{
+	color:red;
+    text-transform: uppercase;
+	word-spacing: 5px;
+}
+#crystaldigit:hover{
+    cursor: crosshair;
+	text-decoration: underline;
+    color: red;
+
+}
+.left{
+    float:left;
+    width: 480px;
+    height: 270px;
+    margin-top: 80px;
+    margin-left: 70px;
+    padding-left: 50px;
+    z-index: 2;
+}
+#exp:hover{
+    
+    color: #d70e29;
+
+}
+#group{
+    height: 30%;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 5%;
+
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+}
+#map{
+    margin-left:750px;
+}
